@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    body {
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-color: #87CEEB;
+    background-image: url('https://imageio.forbes.com/specials-images/imageserve/5c10344331358e5b43396dba/960x0.jpg?fit=bounds&format=jpg&width=960');
+  }</style>
+    <meta charset="UTF-8">
+    <title>Energy Consumption of Steel Industry Predictor</title>
+</head>
+<body>
+<form method="post" action="/predict">
+
+        <label>LAG CURRENT RP</label><br>
+        <input type="text" name="lagcurrentrp"><br><br>
+
+        <label>LEAD CURRENT RP</label><br>
+        <input type="text" name="leadcurrentrp"><br><br>
+
+        <label>LAG CURRENT POWER FACTOR</label><br>
+        <input type="text" name="lagcurrentpf"><br><br>
+
+        <label>LEAD CURRENT POWER FACTOR</label><br>
+        <input type="text" name="leadcurrentpf"><br><br>
+
+
+        <label>NSM</label><br>
+        <input type="text" name="nsm"><br><br>
+
+        <label>WEEK STATUS</label><br>
+        <input type="text" name="weekstatus"><br><br>
+
+        <label>DAY OF THE WEEK</label><br>
+        <input type="text" name="dayofweek"><br><br>
+
+        <label>LOAD TYPE</label><br>
+        <input type="text" name="loadtype"><br><br>
+
+        <label>MONTH</label><br>
+        <input type="text" name="month"><br><br>
+
+        <input type="submit" value="Predict"><br><br>
+    </form>
+</body>
+</html>

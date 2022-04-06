@@ -1,0 +1,18 @@
+1.For Model Creation:
+ Jupyter Notebook(IDE)
+ Pandas(For data preprocessing)
+ Numpy(For data preprocessing)
+ Matplotlib(Data Visualizataion)
+ Seaborn(Data Visualization)
+ Sklearn(For model development)
+ Pickle(For model creation and saving)
+2.For Model Deployment:
+ Pycharm Community version(IDE)
+ Flask
+ Numpy
+ Sklearn
+ Model.pkl
+3.Basic Html,CSS,Jinga(Basic)
+4.Dataset for model training and testing
+ 
+ 
